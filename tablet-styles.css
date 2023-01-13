@@ -1,0 +1,87 @@
+@media screen and (min-width:48em) {
+    body {
+        background-image: url(assets/tablet/image-host.jpg);
+        background-size: 55%;
+        background-position: top right;
+        position: relative;
+        padding: 3rem 2rem;
+    }
+
+    .wrapper {
+        background-color: transparent;
+    }
+
+    main {
+        background-color: #121725;
+        height: 60%;
+        padding: 2rem;
+        position: relative;
+        top: 0rem;
+        left: -3rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+        margin-top: 2.5rem;
+    }
+
+    p {
+        text-align: left;
+        max-width: 65%;
+    }
+
+    .logo {
+        margin: 0;
+        position: absolute;
+        top: 5vh;
+        left: 4vw;
+    }
+
+    .flex-swap-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social {
+        margin-right: 4rem;
+        /* margin-bottom: 5rem; */
+    }
+
+    .social img:first-of-type, .social img:nth-of-type(2) {
+        width: 15%;
+    }
+    
+    .social img:nth-of-type(3), .social img:nth-of-type(4){
+        width: 20%;
+    }
+
+    form {
+        position: relative;
+        max-width: 24rem;
+        margin-bottom: 3rem;
+    }
+
+    input {
+        padding: 1rem 2rem;
+    }
+
+    .error-message {
+        top: 4rem;
+    }
+
+    button {
+        max-width: 10rem;
+        position: absolute;
+        left: 57%;
+        top: 0.35rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .dots {
+        display: block;
+        position: absolute;
+        right: 65vw;
+        bottom: 0vh;
+    }
+}

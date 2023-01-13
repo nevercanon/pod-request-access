@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="mobile-styles.css">
+  <link rel="stylesheet" href="tablet-styles.css">
+  <link rel="stylesheet" href="desktop-styles.css">
+  <title>Frontend Mentor | Pod request access landing page</title>
+</head>
+<body>
+  <header>
+    <img src="assets/desktop/logo.svg" class="logo" alt="">
+  </header>
+  <div class="wrapper">
+  <main>
+ <h1>Publish your podcasts <span>everywhere.</span> </h1> 
+
+ <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+  Apple Podcasts, Google Podcasts, Pocket Casts and more!</p> 
+  <div class="flex-swap-section">
+  <div class="social">
+    <img src="assets/desktop/spotify.svg" alt="Spotify">
+    <img src="assets/desktop/apple-podcast.svg" alt="Apple Podcast">
+    <img src="assets/desktop/google-podcasts.svg" alt="Google Podcasts">
+    <img src="assets/desktop/pocket-casts.svg" alt="Pocket Casts">
+  </div>
+  <form action="#">
+  <label for="email" hidden>Email address</label>
+  <input type="email" name="email" id="email" placeholder="Email address">
+  <p class="error-message">Oops! Please check your email</p>
+  <button type="submit">Request access</button> 
+</form>
+</div>
+</main>
+</div>
+<img src="assets/desktop/bg-pattern-dots.svg" class="dots" alt="">
+<script src="app.js"></script>
+</body> 
+</html>

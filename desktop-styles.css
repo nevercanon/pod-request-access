@@ -1,0 +1,41 @@
+@media screen and (min-width: 75em) {
+    body {
+        background-image: url(assets/desktop/image-host.jpg);
+        background-size: 60%, 15%;
+        background-position: center right, 70% 94%;
+    }
+
+    .logo {
+        top: 7rem;
+        left: 12rem;
+    }
+
+    main {
+        max-width: 60%;
+        top: 6rem;
+        left: -13rem;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+        max-width: 67%;
+    }
+
+    form {
+        max-width: 30rem;
+    }
+
+    button {
+        left: 65.5%;
+    }
+
+    .dots {
+        right: 0vw;
+        bottom: 9.5vh;
+    }
+}
